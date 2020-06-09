@@ -24,4 +24,4 @@ with open(r'strings.yml') as file:
 # Iterate through list of strings in file  
 for string in list_of_strings["strings"]:
     total_count = count(string)
-    print(total_count)
+    print(f"The number of vowels in {string} is {total_count}")
